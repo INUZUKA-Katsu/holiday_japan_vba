@@ -25,7 +25,10 @@ SetYearで年をセットせす、直接関数の引数で年月日を指定す�
 ```
 Dim data as HolidayJP
 Set data = New HolidayJP
-MsgBox isHoliday("2022/10/10") => true
-MsgBox HolidayName("2022/10/10") => スポーツの日
-Call dispHoliday(2022)
+MsgBox isHoliday("2023/10/10") => false
+MsgBox HolidayName("2023/10/9") => スポーツの日
+Call dispHoliday(2024)
 ```
+祝日の一覧
+
+<img src="https://i.gyazo.com/572caef26e63a8f4df594f0401e2cbc0.png" width="250px">
