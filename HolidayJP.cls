@@ -309,7 +309,7 @@ Function HolidayName(dateVal)
     If dic.Exists(dateVal) Then
         HolidayName = dic.Item(dateVal)
     Else
-        HolidayName = Format(dateVal, "yyyy”NMŒd“ú") & "‚Íj“ú‚Å‚Í‚ ‚è‚Ü‚¹‚ñ"
+        HolidayName = ""
     End If
 
 End Function
